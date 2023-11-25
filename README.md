@@ -123,14 +123,28 @@ class MyWebhookAwareClass extends GenericWebhook {
 }
 ```
 
-A complete working example can be found in the `example` directory. It includes two PHP applications that can simply be tested on the local system's PHP engine:
+**Example Setup:**
 
-- a `listener` web application which is the webhook server
-- a `subscriber` console application which is the webhook subscribed client
+Find a complete, functional example in the `example` directory. It comprises two PHP applications ready for local testing:
 
-To run the `listener` server just run the following command in the project's directory: `php -S localhost:3000 -t ./example/listener`.
+1. **Listener Web Application:**
 
-To run the `subscriber` application just run the following command in the project's directory: `php -f example/subscriber/index.php`.
+   - This serves as the webhook server.
+   - To run the listener server, execute the following command in the project's directory:
+
+     ```bash
+     php -S localhost:3000 -t ./example/listener
+     ```
+
+2. **Subscriber Console Application:**
+   - This acts as the subscribed client for the webhook.
+   - To run the subscriber application, execute the following command in the project's directory:
+
+     ```bash
+     php -f example/subscriber/index.php
+     ```
+
+These commands assume a local PHP engine. Adjust them accordingly if necessary.
 
 ## 4. Conclusion
 
