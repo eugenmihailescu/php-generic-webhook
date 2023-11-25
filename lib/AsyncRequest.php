@@ -2,6 +2,9 @@
 
 /**
  * Class to handle asynchronous requests
+ * 
+ * @author   Eugen Mihailescu <eugen@lsbolagen.se>
+ * @license  http://www.opensource.org/licenses/mit-license.php MIT Licence
  */
 class AsyncRequestHandler
 {
