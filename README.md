@@ -41,7 +41,7 @@ The class defines three constants representing different webhook types:
 
 #### 2.2.1 Webhook Initialization
 
-The webhooks are initialized automatically. All that's needed is implementing the two functions in the extended PHP class. See [2.2.2](#2.2.2-customization-hooks).
+The webhooks are initialized automatically. All that's needed is implementing the two functions in the extended PHP class. See [2.2.2](#222-customization-hooks).
 
 #### 2.2.2 Customization Hooks
 
@@ -137,6 +137,7 @@ Find a complete, functional example in the `example` directory. It comprises two
      ```
 
 2. **Subscriber Console Application:**
+
    - This acts as the subscribed client for the webhook.
    - To run the subscriber application, execute the following command in the project's directory:
 
